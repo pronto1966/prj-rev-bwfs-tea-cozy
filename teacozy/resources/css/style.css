@@ -1,0 +1,172 @@
+/*Tim Baiton's CodeAcademy TeaCozy project - stylesheet.*/
+
+/*Global styles*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h2, h4, h5 {
+  margin: 0 ;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+/* end Global Style section*/
+
+
+/*Header, logo, navigation section*/
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+  header img { /*tea cozy logo image*/
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  opacity: 0.9;
+}
+/* End Header, logo, navigation section
+
+
+/*Mission Section*/
+#mission{
+  padding-top: 70px;
+}
+
+.mission_container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-image: url(../images/img-mission-background.jpg);
+  margin: auto;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+}
+/*end mission section*/
+
+
+/* Featured tea section*/
+#tea-of-month {
+  text-align: center;
+}
+
+#featured-tea {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  }
+
+.item span {
+  text-align: center;
+  padding: 5px;
+}
+/* end featured tea section*/
+
+
+/* Locations section*/
+#locations {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+#locations h2{
+  background-color: transparent;
+  color: seashell;
+  text-align: center;
+  }
+
+.location-container {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location-container #locations {
+  margin: auto;
+  width: 1200px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* end location section*/
+
+
+/*Contact Section*/
+.contact {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+  text-align: center;
+}
+/*end Contact section*/
+
+
+/*Footer Section*/
+.footer {
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+}
+/* end footer section */
